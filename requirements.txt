@@ -1,0 +1,9 @@
+streamlit
+streamlit-autorefresh
+flask
+gunicorn
+psutil
+numpy
+pandas
+scikit-learn
+joblib
