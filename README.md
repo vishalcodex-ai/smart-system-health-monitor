@@ -1,72 +1,42 @@
 # 🚀 Smart System Health Monitor
 
-An **AI-based Smart System Health Monitoring & Failure Prediction Dashboard** built using **Python, Flask, and Machine Learning**.  
-This project monitors real-time system performance (CPU, RAM, Disk), detects critical health conditions, generates alerts, and predicts possible future system failures.
+An AI-Based Smart System Health Monitoring & Failure Prediction Dashboard built using Python, Streamlit, and Machine Learning.
 
----
+This project monitors real-time system performance (CPU, RAM, Disk), detects critical health conditions, generates intelligent alerts, and predicts potential future system failures.
 
-## 📌 Features
+📌 Features
 
-- 📊 Real-time monitoring of:
-  - CPU Usage
-  - RAM Usage
-  - Disk Usage
-- 🧠 Intelligent Health Score Calculation
-- ⚠️ Smart Alert System with Cooldown (prevents false alerts)
-- 🔮 Failure Prediction using Machine Learning
-- 🧹 Automatic RAM Cleanup during Critical Conditions
-- 🌐 Web-based Dashboard (Flask)
-- ☁️ Cloud-ready (Railway / Render)
+📊 Real-time Monitoring of:
+CPU Usage
+RAM Usage
+Disk Usage
+🧠 Intelligent Health Score Calculation
+⚠️ Smart Alert System with Cooldown Mechanism
+🔮 Machine Learning-Based Failure Prediction
+🧹 Automatic RAM Optimization (Critical Mode)
+📁 CSV Data Logging
+🌐 Interactive Web Dashboard (Streamlit)
+☁️ Cloud Deployment Ready (Railway / Streamlit Cloud)
 
----
+🛠️ Tech Stack
+Programming Language: Python
+Frontend & Dashboard: Streamlit
+Machine Learning: Scikit-learn
+System Monitoring: psutil
+Data Handling: Pandas, NumPy
+Model Persistence: Joblib
+Deployment: Railway
+Version Control: Git & GitHub
 
-## 🛠️ Tech Stack
-
-- **Programming Language:** Python  
-- **Backend Framework:** Flask  
-- **Frontend:** HTML, CSS, JavaScript  
-- **Machine Learning:** Scikit-learn  
-- **System Monitoring:** psutil  
-- **Version Control:** Git & GitHub  
-
----
-
-## 📂 Project Structure
-
-Smart-System-Health-Monitor/<br>
+Smart-System-Health-Monitor/
 │
-├── core/ # Core system logic (monitoring, analysis, prediction)<br>
-├── dashboard/ # Flask dashboard (UI + APIs)<br>
-│ ├── templates/<br>
-│ ├── static/<br>
-│ └── app.py<br>
-├── ml/ # Machine learning training & prediction<br>
-├── utils/ # Utility helpers (logging, scoring, file handling)<br>
-├── config/ # Configuration & thresholds<br>
-├── tests/ # Unit tests<br>
-├── docs/ # Viva & documentation files<br>
-├── requirements.txt # Project dependencies<br>
-├── main.py # Project entry point<br>
-└── README.md<br>
-
----
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/vishalcodex-ai/Smart-System-Health-Monitor.git
-cd Smart-System-Health-Monitor
-
-
-## 📸 Screenshots
-
-### Dashboard View
-![Dashboard](screenshots/dashboard.png)
-
-### Alert Notification
-![Alert](screenshots/alert.png)
-
-### Failure Prediction
-![Prediction](screenshots/prediction.png)
+├── core/                # Monitoring, Alerts, Analyzer, Prediction logic
+├── dashboard/           # Streamlit UI
+│   └── app.py
+├── ml/                  # Model training & prediction scripts
+├── utils/               # Health score, logging, file handling
+├── config/              # System thresholds & settings
+├── requirements.txt     # Dependencies
+├── Procfile             # Railway deployment file
+├── runtime.txt          # Python version
+└── README.md
