@@ -1,5 +1,5 @@
-flask
-gunicorn
+streamlit
+streamlit-autorefresh
 psutil
 numpy
 pandas
